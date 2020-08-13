@@ -18,6 +18,13 @@
 
 <body>
     <h1>更多內容，即將來臨！</h1>
+    <script type="application/javascript">
+function getip(json){
+    document.write("你的IP位置為： ", json.ip);
+}
+</script>
+
+<script type="application/javascript" src="https://api.ip.sb/jsonip?callback=getip"></script>
 </body>
 
 </html>
